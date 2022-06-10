@@ -1,0 +1,23 @@
+* {
+    font-family: 'Quicksand', sans-serif, serif;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 35vh;
+}
+
+h1, form {
+    font-size: 2.5em;
+}
+
+.submit {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border-color: lightslategray;
+    border-radius: 5px;
+}
+
+#age-textarea {
+    height: 3rem;
+}
