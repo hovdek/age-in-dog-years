@@ -16,8 +16,10 @@ h1, form {
     background-color: lightgreen;
     border-color: lightslategray;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 #age-textarea {
-    height: 3rem;
+    padding: 10px 0;
+    font-size: 0.75em;
 }
