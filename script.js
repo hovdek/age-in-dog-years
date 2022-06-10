@@ -29,16 +29,5 @@ let myAgeInDogYears = earlyYears + laterYears;
 console.log(`I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
 
 // this is currently turning the submit button into the statement I am trying to get to appear below the submit button. Ideally we would be able to use the submit button multiple times. 
-const targetDiv = document.getElementById("third");
-const btn = document.getElementById("toggle");
 
-btn.onclick = function () {
-    if (targetDiv.style.display == "none") {
-        targetDiv.style.display = "block"; 
-    } else {
-        targetDiv.style.display = "none";
-    }
-    console.log(`I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
-    document.getElementById("toggle").innerHTML = `I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`;
-};
 
